@@ -4,13 +4,33 @@
         <meta charset="UTF-8" />
         <title>Title</title>
     </head>
-    <body style="background-color:rgba(100, 0, 77, 0.37);">
+    <body style="background-color: rgba(100, 0, 77, 0.37)">
         <a href="index.html">Home Page</a>||<a href="howtoplaymtg.html">How to play MTG</a>||<a
             href="howthecommanderworks.html"
             >How the Commander Works</a
         >||<a href="howthecardsinthedeckwork.html">How the cards in the deck work</a>||<a href="whylosingisfun.html"
             >Why losing is fun</a
         >
-        <h1>Somewhere</h1>
+        <p></p>
+        <h1>Why Losing is fun!</h1>
+        Comments
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <!-- Replace with your Access Key -->
+            <input type="hidden" name="access_key" value="5fb97f7b-f784-4595-a6e0-b6b19af0b576" />
+
+            <!-- Form Inputs. Each input must have a name="" attribute -->
+            <label for="text">
+            <input type="text" name="name" required /><br>
+            <input type="email" name="email" required /><br>
+            <textarea name="message" required></textarea><br>
+
+            <!-- Honeypot Spam Protection -->
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none" />
+
+            <!-- Custom Confirmation / Success Page -->
+            <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+
+            <button type="submit">Submit Form</button>
+        </form>
     </body>
 </html>
