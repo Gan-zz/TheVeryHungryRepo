@@ -1,13 +1,13 @@
 body {
     font-family: "Exo 2";
-    color: #ffffff;
-    background-color: darkgreen
+    color: black;
+    background-image: url(images/grothamagoog.jpg)
 }
 p {
-    color: #ffffff
+    color: black
 }
 h1 {
-    color: #ffffff;
+    color: black;
     text-align:center;
     text-decoration:underline
 }
