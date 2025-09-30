@@ -18,3 +18,20 @@ a {
 iframe{
     display: block
 }
+.banner{
+    background-color: forestgreen;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: black;
+    width: 80%;
+    padding: 16px;
+    margin-left: 64px
+}
+.form{
+    border-width: 2px;
+    border-style: dotted;
+    border-color: black;
+    width: 80%;
+    padding: 16px;
+    margin-left: 64px
+}
