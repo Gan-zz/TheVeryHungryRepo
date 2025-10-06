@@ -51,11 +51,12 @@ iframe {
     margin: 0 15px;
     border-radius: 50%;
 }
-.eyes .eye::before;{
+.eyes .eye ::before
+{
     content: "";
     position: absolute;
     top: 50%;
-    left: 25[p];
+    left: 25px;
     transform: translate(-50%,-50%);
     width: 40px;
     height: 40px;
