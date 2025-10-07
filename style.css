@@ -55,7 +55,8 @@ a {
 .navbar{
     text-align: center;
     width: 100%;
-    height: auto
+    height: auto;
+    font-size: x-large;
 }
 .navbutton{
     background-color: forestgreen;
