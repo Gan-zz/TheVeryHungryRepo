@@ -60,10 +60,31 @@ a {
 .navbutton{
     background-color: forestgreen;
     border: dashed #444;
-    display: inline-block;
-    width:150px;
-    margin: 5px;
     padding: 5px;
     height: 50px;
     vertical-align: middle;
+}
+/* mobile */
+navbutton{
+    width: 100%;
+    margin: 100%;
+    
+}
+/* tablet */
+@media (min-width:830px){
+    .navbutton{
+        display: inline-block;
+        width: 25%;
+        margin: -4px;
+        
+    }
+}
+/* large desktop */
+@media (min-width:1200pxpx){
+    .navbutton{
+        display: inline-block;
+        width: 150px;
+        margin: 10px;
+        
+    }
 }
