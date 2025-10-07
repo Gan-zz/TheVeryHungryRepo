@@ -16,7 +16,8 @@ a {
     text-align: center;
 }
 iframe {
-    display: block;
+    margin: auto;
+    width: 100%;
 }
 .banner {
     background-color: forestgreen;
