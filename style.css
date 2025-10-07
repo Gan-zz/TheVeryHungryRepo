@@ -5,6 +5,7 @@ body {
 }
 p {
     color: black;
+    
 }
 h1 {
     color: black;
@@ -27,6 +28,15 @@ iframe {
     padding: 16px;
     margin-left: 64px;
 }
+.banner2 {
+    background-color: rgb(57, 201, 57);
+    border-width: 2px;
+    border-style: dotted;
+    border-color: black;
+    width: 80%;
+    padding: 16px;
+    margin-left: 64px;
+}
 .form {
     border-width: 2px;
     border-style: dotted;
@@ -36,30 +46,4 @@ iframe {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-}
-.eyes{
-    position:relative;
-    top: -40px;
-    display: flex;
-}
-.eyes .eye{
-    position: relative;
-    width: 80px;
-    height: 80px;
-    display: block;
-    background: #fff;
-    margin: 0 15px;
-    border-radius: 50%;
-}
-.eyes .eye ::before
-{
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 25px;
-    transform: translate(-50%,-50%);
-    width: 40px;
-    height: 40px;
-    background: #333;
-    border-radius: 50%;
 }
