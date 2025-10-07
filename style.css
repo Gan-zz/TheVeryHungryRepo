@@ -52,3 +52,18 @@ a {
   color: #000000;
   font-weight: bold;
 }
+.navbar{
+    text-align: center;
+    width: 100%;
+    height: auto
+}
+.navbutton{
+    background-color: forestgreen;
+    border: dashed #444;
+    display: inline-block;
+    width:150px;
+    margin: 5px;
+    padding: 5px;
+    height: 50px;
+    vertical-align: middle;
+}
