@@ -67,6 +67,7 @@ a {
 }
 /* mobile */
 navbutton{
+    display: inline-block;
     width: 100%;
     margin: 100%;
     
