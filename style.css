@@ -15,10 +15,8 @@ h1 {
 a {
     text-align: center;
 }
-iframe {
-    margin: auto;
-    width: 100%;
-}
+
+
 .banner {
     background-color: forestgreen;
     border-width: 2px;
