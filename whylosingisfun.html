@@ -11,7 +11,7 @@
             rel="stylesheet" />
         <link rel="icon" type="image/png" href="images/websitelogo.png" />
         <link rel="stylesheet" href="style.css" />
-        <meta name="viewport" content="width-device-width, initial-scale=1.0"/>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0" />
     </head>
     <body>
         <div class="navbar">
@@ -49,12 +49,12 @@
                     <p>Contact Form(which actually works and sends a email to me!)</p>
                     <form action="https://api.web3forms.com/submit" method="POST">
                         <input type="hidden" name="access_key" value="5fb97f7b-f784-4595-a6e0-b6b19af0b576" />
-                        <label for="text">Name:</label><br />
-                        <input type="text" name="name" required /><br />
+                        <label for="name">Name:</label><br />
+                        <input type="text" id="name" required /><br />
                         <label for="email">Enter Email:</label><br />
-                        <input type="email" name="email" required /><br />
+                        <input type="email" id="email" required /><br />
                         <label for="message">Comment:</label><br />
-                        <textarea name="message" required></textarea><br />
+                        <textarea id="message" required></textarea><br />
 
                         <input type="checkbox" name="botcheck" class="hidden" style="display: none" />
 
