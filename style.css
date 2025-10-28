@@ -18,7 +18,9 @@ a {
 table, th, td{
     border: 1px solid;
 }
-
+iframe{
+    width: 100%
+}
 .banner {
     background-color: forestgreen;
     border-width: 2px;
