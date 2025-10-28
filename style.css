@@ -15,7 +15,9 @@ h1 {
 a {
     text-align: center;
 }
-
+table{
+    border-width:thick
+}
 
 .banner {
     background-color: forestgreen;
@@ -81,7 +83,7 @@ navbutton{
     }
 }
 /* large desktop */
-@media (min-width:1200pxpx){
+@media (min-width:1200px){
     .navbutton{
         display: inline-block;
         width: 150px;
