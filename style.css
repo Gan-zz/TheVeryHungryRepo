@@ -15,8 +15,8 @@ h1 {
 a {
     text-align: center;
 }
-table{
-    border-width:thick
+table, th, td{
+    border: 1px solid;
 }
 
 .banner {
@@ -65,6 +65,7 @@ a {
     padding: 5px;
     height: 50px;
     vertical-align: middle;
+    
 }
 /* mobile */
 navbutton{
@@ -86,7 +87,7 @@ navbutton{
 @media (min-width:1200px){
     .navbutton{
         display: inline-block;
-        width: 150px;
+        width: 190px;
         margin: 10px;
         
     }
